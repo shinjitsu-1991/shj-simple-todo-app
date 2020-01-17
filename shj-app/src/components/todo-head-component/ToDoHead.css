@@ -1,0 +1,13 @@
+.todo-head {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+
+.todo-head-info {
+    font-weight: bold;
+    color: darkgrey;
+}

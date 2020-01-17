@@ -1,0 +1,18 @@
+.todo-search {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo-search input {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: none;
+    border: 1px solid grey;
+    height: 40px    ;
+}

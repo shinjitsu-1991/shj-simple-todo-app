@@ -1,0 +1,13 @@
+.todo-search-btns .btn {
+    background-color: transparent;
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 0 10px;
+    margin-left: 2px;
+}
+
+.todo-search-btns .btn-active {
+    background-color: aqua;
+}

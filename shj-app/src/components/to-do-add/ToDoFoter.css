@@ -1,0 +1,24 @@
+.todo-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.todo-footer input {
+    width: calc(100% - 80px);
+}
+
+.todo-footer button {
+    width: 65px;
+}
+
+.todo-footer input,
+.todo-footer button {
+    height: 40px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border: 1px solid grey;
+}
