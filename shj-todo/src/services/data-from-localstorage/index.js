@@ -1,13 +1,11 @@
 export default class EditToDoData {
-    constructor() {
-        this.dataName = 'shjToDoData';
-    }
+    _dataName = 'shjToDoData';
 
     getData = () => {
-        if(!localStorage.getItem(this.dataName)) {
-            localStorage.setItem(this.dataName, '[]');
+        if(!localStorage.getItem(this._dataName)) {
+            localStorage.setItem(this._dataName, '[]');
         }
-        return JSON.parse(localStorage.getItem(this.dataName));
+        return JSON.parse(localStorage.getItem(this._dataName));
     };
 
     addItem = (newItem) => {
@@ -36,6 +34,6 @@ export default class EditToDoData {
     };
 
     setData = (newData) => {
-        localStorage.setItem(this.dataName, newData);
+        localStorage.setItem(this._dataName, newData);
     };
 }

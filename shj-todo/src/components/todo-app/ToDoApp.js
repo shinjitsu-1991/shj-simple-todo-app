@@ -5,7 +5,7 @@ import ToDoHead from "../todo-head-component/ToDoHead";
 import ToDoSearch from "../search-component/ToDoSearch";
 import ToDoList from "../todo-list/ToDoList";
 import ToDoFooter from "../to-do-add/ToDoFooter";
-import EditToDoData from "../../data-components/data-from-localstorage/index"
+import EditToDoData from "../../services/data-from-localstorage/index"
 
 export default class ToDoApp extends React.Component {
     constructor() {
