@@ -1,7 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import "./ToDoSearch.css";
-import ToDoSearchBtns from "../todo-search-btns/ToDoSearchBtns";
+import ToDoSearchBtns from "components/ToDoSearchBtns";
 
 export default class ToDoSearch extends React.Component{
     constructor() {

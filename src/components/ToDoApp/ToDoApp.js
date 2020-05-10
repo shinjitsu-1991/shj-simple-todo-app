@@ -1,11 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import "./ToDoApp.css";
-import ToDoHead from "../todo-head-component/ToDoHead";
-import ToDoSearch from "../search-component/ToDoSearch";
-import ToDoList from "../todo-list/ToDoList";
-import ToDoFooter from "../to-do-add/ToDoFooter";
-import EditToDoData from "../../services/data-from-localstorage/index"
+import ToDoHead from "components/ToDoHead";
+import ToDoSearch from "components/ToDoSearch";
+import ToDoList from "components/ToDoList";
+import ToDoFooter from "components/ToDoFooter";
+import EditToDoData from "services/data-from-localstorage/index"
 
 export default class ToDoApp extends React.Component {
     constructor() {
@@ -100,8 +99,6 @@ export default class ToDoApp extends React.Component {
     };
 
     render() {
-
-        console.log(this.data.getData());
         return(
             <div className="todo-main">
                 <ToDoHead todo={this.getTodoCount()} done={this.getDoneCount()} />
